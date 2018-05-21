@@ -1,0 +1,88 @@
+@charset "utf-8";
+@width: 1200px;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style: none;
+}
+
+//heaTop
+
+.heaTop{
+	width:100%;
+	height: 120px;
+}
+.heaTop>div{
+	width: @width;
+	height: 100%;
+	margin: 0 auto;
+}
+.heatL{
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+.heatL>div:nth-child(1){
+	float: left;
+}
+.heatL>div:nth-child(2){
+	float: right;
+}
+.heatL>div>span{
+	font-size: 28px;
+	font-family: 微软雅黑;
+	color: #D2A069;
+	line-height: 120px;
+	margin-bottom: 20px;
+}
+.heatL>div>span:nth-child(2){
+	color: #444444;
+}
+.heatR{
+	width: 200px;
+	height: 100%;
+	float: right;
+}
+.heatR>div{
+	width:80px;
+	height: 38px;
+	line-height: 40px;
+	border-radius: 20px;
+	border:1px solid #E1B787;
+	text-align: center;
+	margin-top: 40px;
+	color: #E1B787;
+}
+.heatR>div:nth-child(1){
+	float: left;
+	margin-right:10px;
+}
+.heatR>div:nth-child(2){
+	float: right;
+	margin-left: 10px;
+}
+
+//heaMiddle
+
+.heaMiddle{
+	width: 100%;
+	height: 60px;
+}
+.heaMiddle>div{
+	width: @width;
+	height: 100%;
+	margin: 0 auto;
+}
+.heamL{
+	float: left;
+}
+.heamR{
+	float: right;
+}
+

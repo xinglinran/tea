@@ -130,3 +130,71 @@ div.heaBottom {
   height: 720px;
   background: url('../images/sy2.jpg') no-repeat center;
 }
+.main {
+  width: 100%;
+}
+.main div.mainHead {
+  width: 100%;
+  height: 27px;
+  margin: 70px 0 30px 0;
+  border-bottom: 1px solid #ccc;
+  padding-top: 8px;
+}
+.main div.mainHead div.mhBody {
+  width: 90%;
+  height: auto;
+  padding-bottom: 2px;
+  margin: 0 auto;
+  position: relative;
+}
+.main div.mainHead div.mhBody div.mhbMain {
+  height: 24px;
+  margin: 0px 0 0 25px;
+  font-size: 14px;
+}
+.main div.mainHead div.mhBody div.mhbMain a {
+  color: #000;
+}
+.main div.mainHead div.mhBody div.mhbMain img {
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 16px;
+}
+.main div.mainBody {
+  width: 90%;
+  height: 900px;
+  margin: 0 auto;
+  background: #ccc;
+  display: -webkit-flex;
+}
+.main div.mainBody div.mbLeft {
+  width: 22%;
+  height: 360px;
+  float: left;
+  margin-right: 10px;
+}
+.main div.mainBody div.mbLeft div.mbTop {
+  width: 100%;
+  height: 116px;
+  overflow: hidden;
+  background: url('../images/sy6.png') no-repeat center;
+}
+.main div.mainBody div.mbLeft div.mbTop a {
+  display: block;
+  width: 120px;
+  margin: 35px 70px 0 70px;
+  font-size: 30px;
+  color: #fff;
+}
+.main div.mainBody div.mbLeft dl {
+  width: 100%;
+  height: 153px;
+  background: red;
+}
+.main div.mainBody div.mbRight {
+  width: 80%;
+  height: 800px;
+  float: right;
+  background: blue;
+}

@@ -27,9 +27,9 @@ $(function(){
 				var ul1 = document.getElementById('ltbMain');
 				$('#mbrmRight li:nth-child(1)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -55,9 +55,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(2)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -83,9 +83,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(3)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -111,9 +111,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(4)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -139,9 +139,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(5)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -167,9 +167,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(6)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -195,9 +195,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(7)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -223,9 +223,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(8)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -251,9 +251,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(9)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -279,9 +279,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(10)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -307,9 +307,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(11)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -335,9 +335,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(12)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -368,11 +368,11 @@ $(function(){
 			}
 		})
 	}	
-	$('#cpzq').click(function(){
+	$('#cpzq').on('click',function(){
 		$('#mbLeft').css('left','-600px');
-		$('#mbLeft').animate({left:'0px'},2000);
-		$('#mbRight').css('right','-1000px');
-		$('#mbRight').animate({right:'0px'},2000);
+		$('#mbLeft').animate({left:'0px'},1500);
+		$('#mbRight').css('right','-1500px');
+		$('#mbRight').animate({right:'0px'},1500);
 		$('.mbrTop').show();
 		$('.mbrMain').show();
 		$('.mbrBotton').show();
@@ -406,10 +406,9 @@ $(function(){
 				var ul1 = document.getElementById('ltbMain');
 				$('#mbrmRight li:nth-child(1)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
-				
+					$('#mbRight').css('right','-1500px');
+					$('#mbRight').animate({right:'0px'},1500);
+					$('#mbLeft').animate({left:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -434,9 +433,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(2)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -461,9 +460,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(3)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -488,9 +487,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(4)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -515,9 +514,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(5)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -542,9 +541,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(6)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -569,9 +568,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(7)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);					
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);					
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -596,9 +595,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(8)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -623,9 +622,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(9)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -650,9 +649,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(10)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);				
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);				
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -677,9 +676,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(11)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -704,9 +703,9 @@ $(function(){
 				})
 				$('#mbrmRight li:nth-child(12)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -736,11 +735,11 @@ $(function(){
 		});
 	})
 
-	$('#sanz').click(function(){
+	$('#sanz').on('click',function(){
 		$('#mbLeft').css('left','-600px');
-		$('#mbLeft').animate({left:'0px'},2000);
-		$('#mbRight').css('right','-1000px');
-		$('#mbRight').animate({right:'0px'},2000);
+		$('#mbRight').css('right','-1500px');
+		$('#mbLeft').animate({left:'0px'},1500);
+		$('#mbRight').animate({right:'0px'},1500);
 		$('.mbrTop').show();
 		$('.mbrMain').show();
 		$('.mbrBotton').show();
@@ -754,7 +753,6 @@ $(function(){
 		$('#mbrmRight').empty();
 		$('#pricea').empty();
 		$('#ltbMain').empty();
-
 		$.ajax({
 			url:'/product',
 			type:'post',
@@ -782,9 +780,9 @@ $(function(){
 				var ul1 = document.getElementById('ltbMain');
 				$('#mbrmRight li:nth-child(1)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -813,15 +811,14 @@ $(function(){
 			error:function(err){
 				return console.log(err);
 			}
-		})
-		
+		})	
 	})
 
-	$('#lih').click(function(){
+	$('#lih').on('click',function(){
 		$('#mbLeft').css('left','-600px');
-		$('#mbLeft').animate({left:'0px'},2000);
-		$('#mbRight').css('right','-1000px');
-		$('#mbRight').animate({right:'0px'},2000);
+		$('#mbRight').css('right','-1500px');
+		$('#mbLeft').animate({left:'0px'},1500);
+		$('#mbRight').animate({right:'0px'},1500);
 		$('.mbrTop').show();
 		$('.mbrMain').show();
 		$('.mbrBotton').show();
@@ -875,9 +872,9 @@ $(function(){
 				var ul1 = document.getElementById('ltbMain');
 				$('#mbrmRight li:nth-child(1)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -903,9 +900,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(2)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -931,9 +928,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(3)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -959,9 +956,9 @@ $(function(){
 				})		
 				$('#mbrmRight li:nth-child(4)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -987,9 +984,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(5)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1015,9 +1012,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(6)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1043,9 +1040,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(7)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1073,11 +1070,14 @@ $(function(){
 			error:function(err){
 				return console.log(err);
 			}
-		})
-		
+		})	
 	})
 	
-	$('#hez').click(function(){
+	$('#hez').on('click',function(){
+		$('#mbLeft').css('left','-600px');
+		$('#mbRight').css('right','-1500px');
+		$('#mbLeft').animate({left:'0px'},1500);
+		$('#mbRight').animate({right:'0px'},1500);
 		$('.mbrTop').show();
 		$('.mbrMain').show();
 		$('.mbrBotton').show();
@@ -1091,10 +1091,7 @@ $(function(){
 		$('#mbrmRight').empty();
 		$('#pricea').empty();
 		$('#ltbMain').empty();	
-		$('#mbLeft').css('left','-600px');
-		$('#mbLeft').animate({left:'0px'},2000);
-		$('#mbRight').css('right','-1000px');
-		$('#mbRight').animate({right:'0px'},2000);
+
 		$.ajax({
 			url:'/product',
 			type:'post',
@@ -1123,9 +1120,9 @@ $(function(){
 				var ul1 = document.getElementById('ltbMain');
 				$('#mbrmRight li:nth-child(1)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1151,9 +1148,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(2)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1179,9 +1176,9 @@ $(function(){
 				})	
 				$('#mbrmRight li:nth-child(3)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);	
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);	
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1207,9 +1204,9 @@ $(function(){
 				})		
 				$('#mbrmRight li:nth-child(4)').on('click',function(){
 					$('#mbLeft').css('left','-600px');
-					$('#mbLeft').animate({left:'0px'},2000);
-					$('#mbRight').css('right','-1000px');
-					$('#mbRight').animate({right:'0px'},2000);
+					$('#mbRight').css('right','-1500px');
+					$('#mbLeft').animate({left:'0px'},1500);
+					$('#mbRight').animate({right:'0px'},1500);
 					$('.mbrTop').hide();
 					$('.mbrMain').hide();
 					$('.mbrBotton').hide();
@@ -1277,10 +1274,10 @@ $(function(){
 		if($(window).scrollTop() >= 450){
 			$('#mbLeft').animate({
 				left:'0px'
-			},2000);
+			},1500);
 			$('#mbRight').animate({
 				right:'0px'
-			},2000);
+			},1500);
 		}
 	})
 

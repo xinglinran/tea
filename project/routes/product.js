@@ -26,11 +26,8 @@ router.post('/', function(req, res, next) {
 	     		console.log('[SELECT ERROR] - ',err.message);
 	         		return;
 	          }        
-	        res.send(result);
-	        // console.log(result);
+	        res.send(result);  
 	});
-
-  	// res.render('register', { title: 'Express' });
 });
 
 module.exports = router;

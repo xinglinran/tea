@@ -1,4 +1,61 @@
 $(function(){
+	$('.anchor>ul>li:nth-child(2)>a').mouseover(function(){
+		$('.anchor>ul>li>span').css('left','-200px')
+		$('.anchor>ul>li>span').css('transition','.5s')
+		$('.anchor>ul>li:nth-child(2)>a').css('background','#ccc')
+	})
+	$('.anchor>ul>li:nth-child(2)>a').mouseout(function(){
+		$('.anchor>ul>li>span').css('left','0')
+		$('.anchor>ul>li>span').css('transition','.5s')
+		$('.anchor>ul>li:nth-child(2)>a').css('background','#C1BFC0')
+	})
+	$('.anchor>ul>li:nth-child(2)>span').mouseover(function(){
+		$('.anchor>ul>li>span').css('left','-200px')
+		$('.anchor>ul>li>span').css('transition','.5s')
+	})
+	$('.anchor>ul>li:nth-child(2)>span').mouseout(function(){
+		$('.anchor>ul>li>span').css('left','0')
+		$('.anchor>ul>li>span').css('transition','.5s')
+	})
+
+	$('.anchor>ul>li:nth-child(3)>a').mouseover(function(){
+		$('.anchor>ul>li:nth-child(3)>div').css('left','-100px')
+		$('.anchor>ul>li:nth-child(3)>div').css('transition','.5s')
+		$('.anchor>ul>li:nth-child(3)>a').css('background','#ccc')
+	})
+	$('.anchor>ul>li:nth-child(3)>a').mouseout(function(){
+		$('.anchor>ul>li:nth-child(3)>div').css('left','50px')
+		$('.anchor>ul>li:nth-child(3)>div').css('transition','.5s')
+		$('.anchor>ul>li:nth-child(3)>a').css('background','#C1BFC0')
+	})
+	$('.anchor>ul>li:nth-child(3)>div').mouseover(function(){
+		$('.anchor>ul>li:nth-child(3)>div').css('left','-100px')
+		$('.anchor>ul>li:nth-child(3)>div').css('transition','.5s')
+	})
+	$('.anchor>ul>li:nth-child(3)>div').mouseout(function(){
+		$('.anchor>ul>li:nth-child(3)>div').css('left','50px')
+		$('.anchor>ul>li:nth-child(3)>div').css('transition','.5s')
+	})
+
+	$('.anchor>ul>li:nth-child(4)>a').mouseover(function(){
+		$('.anchor>ul>li:nth-child(4)>div').css('left','-100px')
+		$('.anchor>ul>li:nth-child(4)>div').css('transition','.5s')
+		$('.anchor>ul>li:nth-child(4)>a').css('background','#ccc')
+	})
+	$('.anchor>ul>li:nth-child(4)>a').mouseout(function(){
+		$('.anchor>ul>li:nth-child(4)>div').css('left','50px')
+		$('.anchor>ul>li:nth-child(4)>div').css('transition','.5s')
+		$('.anchor>ul>li:nth-child(4)>a').css('background','#C1BFC0')
+	})
+	$('.anchor>ul>li:nth-child(4)>div').mouseover(function(){
+		$('.anchor>ul>li:nth-child(4)>div').css('left','-100px')
+		$('.anchor>ul>li:nth-child(4)>div').css('transition','.5s')
+	})
+	$('.anchor>ul>li:nth-child(4)>div').mouseout(function(){
+		$('.anchor>ul>li:nth-child(4)>div').css('left','50px')
+		$('.anchor>ul>li:nth-child(4)>div').css('transition','.5s')
+	})
+
 	$('.mfR>div').mouseover(function(){
 		$(this).animate({width:'69%'},500).siblings().animate({width:'10%'},500);
 	});
@@ -51,13 +108,30 @@ $(function(){
 		$('#mtTopThree>img:nth-child(2)').css('left','-600px')
 		$('#mtTopThree>img:nth-child(2)').css('transition','.5s')
 	});
-	$('.content>h1').mouseover(function(){
-		$('.content>h1').css('transform','rotate(360deg)')
-		$('.content>h1').css('transition','1s')
+
+	$('#hOne').mouseover(function(){
+		$('#hOne').css('transform','rotate(360deg)')
+		$('#hOne').css('transition','1s')
 	})
-	$('.content>h1').mouseout(function(){
-		$('.content>h1').css('transform','rotate(0deg)')
-		$('.content>h1').css('transition','1s')
+	$('#hOne').mouseout(function(){
+		$('#hOne').css('transform','rotate(0deg)')
+		$('#hOne').css('transition','1s')
+	})
+	$('#hTwo').mouseover(function(){
+		$('#hTwo').css('transform','rotate(360deg)')
+		$('#hTwo').css('transition','1s')
+	})
+	$('#hTwo').mouseout(function(){
+		$('#hTwo').css('transform','rotate(0deg)')
+		$('#hTwo').css('transition','1s')
+	})
+	$('#hThree').mouseover(function(){
+		$('#hThree').css('transform','rotate(360deg)')
+		$('#hThree').css('transition','1s')
+	})
+	$('#hThree').mouseout(function(){
+		$('#hThree').css('transform','rotate(0deg)')
+		$('#hThree').css('transition','1s')
 	})
 // 轮播图
 	$('.yjt').click(function(){
@@ -77,16 +151,14 @@ $(function(){
 		$('.zjt').css('border','1px solid #fff');
 		
 	})
+	$('#s').click(function(){
+		$('html,body').animate({'scrollTop':'0'},800)
+	})
+	$('#x').click(function(){
+		$('html,body').animate({'scrollTop':'5000'},800)
+	})
 	$(window).scroll(function(){
 		var top=$(window).scrollTop();
-		console.log(top);
-		if(top>=120){
-			$('.heaMiddle').css('position','fixed');
-			$('.heaMiddle').css('top','0');
-			$('.heaMiddle').css('z-index','3');
-		}else{
-			$('.heaMiddle').css('position','');
-		}
 		if(top>=400){
 			$('.mlL').css('transform','scale(1,1)')
 			$('.mlL').css('transition','1s');

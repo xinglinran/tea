@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>茶</title>
+	<title>联系我们</title>
 	<script src="https://cdn.bootcss.com/less.js/3.0.4/less.js"></script>
 	<link rel="stylesheet" href="stylesheets/contact.css">
 	<script src="javascripts/jquery-1.11.1.min.js"></script>
@@ -65,8 +65,8 @@
 			<div class="maMap">
 				<iframe src="map" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
 			</div>
-			<div class="lxfs">
-				<div class="lxL">
+			<div class="lxfs" id="lxfs">
+				<div class="lxL" id="lxL">
 					<span>联系方式</span>
 					<div>
 						<div class="left">
@@ -93,12 +93,14 @@
 							<p>北京市xx区xx路xx大厦xxx室</p>
 					</div>
 				</div>
-				<div class="lxR">
+				<div class="lxR" id="lxR">
 					<span>联系方式</span>
 					<form action="#">
-						<div> <input type="text"> </div>
-						<div> <input type="text"></div>
-						<div> <input type="text"></div>
+						<div> <input type="text" class="inp" value="您的姓名" id="inpt1"> </div>
+						<div> <input type="text" class="inp" value="您的电话" id="inpt2"></div>
+						<div id="xx">无效的号码</div>
+						<textarea name="one" id="1" cols="30" rows="10" class="inpu">您的留言</textarea>
+						<div> <input type="submit" class="sub"></div>
 					</form>
 				</div>
 			</div>

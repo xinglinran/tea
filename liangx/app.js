@@ -8,9 +8,10 @@ var ejs = require('ejs');
 var newsRouter = require('./routes/news');
 var zydRouter = require('./routes/zyd');
 var indexRouter = require('./routes/index');
-var contactRouer = require('./routes/contact')
-var mapRouer = require('./routes/map')
-
+var contactRouer = require('./routes/contact');
+var mapRouer = require('./routes/map');
+var productRouer = require('./routes/product');
+var attractRouer = require('./routes/attract');
 var app = express();
 
 // view engine setup
@@ -30,6 +31,8 @@ app.use('/zyd', zydRouter);
 app.use('/index', indexRouter);
 app.use('/contact',contactRouer);
 app.use('/map',mapRouer);
+app.use('/product',productRouer);
+app.use('/attract',attractRouer);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

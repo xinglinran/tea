@@ -19,6 +19,20 @@ $(function(){
 	var cont5 = $("#cont5")[0];
 
 	$('#hanye')[0].onclick=function(){
+		funt();
+		$(hany1).show();
+		$(hany2).show();
+		$(hany3).hide();
+		$(hany4).show();
+		$(hany5).hide();
+		$(hany6).show();
+		$(cont2).hide();
+		$(cont3).hide();
+		$(cont0).hide();
+		$(cont5).show();
+	}
+	$(hany4)[0].onclick=function(){
+		funt();
 		$(hany1).show();
 		$(hany2).show();
 		$(hany3).hide();
@@ -31,6 +45,7 @@ $(function(){
 		$(cont5).show();
 	}
 	$(hany1)[0].onclick=function(){
+		funt();
 		$(hany1).show();
 		$(hany2).show();
 		$(hany3).hide();
@@ -43,6 +58,7 @@ $(function(){
 		$(cont5).show();
 	}
 	$('#xinw')[0].onclick=function(){
+		funt();
 		$(hany1).hide();
 		$(cont3).hide();
 		$(hany2).hide();
@@ -54,6 +70,22 @@ $(function(){
 		$(cont5).show();
 	}
 	function fun(){
+		$(cont0).animate({
+			left: "800px",
+			opacity: '0'
+		},0);
+		$(cont).animate({
+			left: "-300px",
+			opacity: '0'
+		},0);
+		$(cont0).animate({
+			left: "0px",
+			opacity: '1'
+		},1200);
+		$(cont).animate({
+			left: "0px",
+			opacity: '1'
+		},1200);
 		var nul = this.innerHTML;
 		$(hany1).show();
 		$(hany2).show();
@@ -66,20 +98,21 @@ $(function(){
 		$(cont0).show();
 		$(cont1).text(nul);
 		content.innerHTML='';
-			for (var j = 0; j < tit.length; j++) {
+		for (var j = 0; j < tit.length; j++) {
 				if(tit[j]==nul){
 					n = j;
 					break;
 				}
-			}
-			for (var i = 0; i < conten[n].length; i++) {
+		}
+		for (var i = 0; i < conten[n].length; i++) {
 				// console.log(conten[n][i]);
 				var p = document.createElement('p');
 				p.innerHTML=conten[n][i];
 				content.appendChild(p);
-			}
+		}
 		}
 	window.onload=function(){
+		funt();
 		$(hany1).hide();
 		$(hany2).hide();
 		$(cont2).hide();
@@ -115,4 +148,22 @@ $(function(){
 				}
 			});
 	};
+	function funt(){
+		$(cont).animate({
+			left: "-300px",
+			opacity: '0'
+		},0);
+		$(cont5).animate({
+			left: "800px",
+			opacity: '0'
+		},0);
+		$(cont).animate({
+			left: "0px",
+			opacity: '1'
+		},1200);
+		$(cont5).animate({
+			left: "0px",
+			opacity: '1'
+		},1200);
+	}
 })

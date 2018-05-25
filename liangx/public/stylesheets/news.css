@@ -766,11 +766,15 @@ ul {
   width: 85%;
   height: 830px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .mabod .mbl {
   width: 21%;
   height: 100px;
   float: left;
+  position: relative;
+  opacity: 0;
+  left: -300px;
 }
 .mabod .mbl .mbrT {
   width: 100%;
@@ -817,10 +821,13 @@ ul {
   display: none;
 }
 .mabod .mbr {
+  position: relative;
   overflow: hidden;
   width: 75%;
   height: 100%;
   float: right;
+  opacity: 0;
+  left: 800px;
 }
 .mabod .mbr div.mblT {
   width: 100%;

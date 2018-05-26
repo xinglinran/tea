@@ -5,12 +5,15 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var ejs = require('ejs');
 
-
+var newsRouter = require('./routes/news');
+var zydRouter = require('./routes/zyd');
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var contactRouer = require('./routes/contact');
+var mapRouer = require('./routes/map');
 var productRouter = require('./routes/product');
-
-
+var brandRouter = require('./routes/brand');
+var attractRouer = require('./routes/attract');
+// var usersRouter = require('./routes/users');
 var app = express();
 
 // view engine setup
@@ -25,9 +28,15 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/news', newsRouter);
+app.use('/zyd', zydRouter);
 app.use('/index', indexRouter);
+app.use('/contact',contactRouer);
+app.use('/map',mapRouer);
 app.use('/product', productRouter);
-app.use('/users', usersRouter);
+app.use('/attract',attractRouer);
+app.use('/brand', brandRouter);
+// app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

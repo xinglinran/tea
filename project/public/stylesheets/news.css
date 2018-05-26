@@ -1,0 +1,541 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.heaTop {
+  width: 100%;
+  height: 120px;
+}
+.heaTop > div {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.heatL {
+  width: 300px;
+  height: 100%;
+  float: left;
+}
+.heatL > div:nth-child(1) {
+  float: left;
+}
+.heatL > div:nth-child(2) {
+  float: right;
+}
+.heatL > div > span {
+  font-size: 28px;
+  font-family: 微软雅黑;
+  color: #D2A069;
+  line-height: 120px;
+  margin-bottom: 20px;
+}
+.heatL > div > span:nth-child(2) {
+  color: #444444;
+}
+.heatR {
+  width: 200px;
+  height: 100%;
+  float: right;
+}
+.heatR > div > a {
+  display: block;
+  color: #E1B787;
+  width: 80px;
+  height: 38px;
+  line-height: 40px;
+  border-radius: 20px;
+  border: 1px solid #E1B787;
+  margin-top: 40px;
+  text-align: center;
+}
+.heatR > div > a:hover {
+  background: #D2A069;
+  color: white;
+}
+.heatR > div:nth-child(1) {
+  float: left;
+  margin-right: 10px;
+}
+.heatR > div:nth-child(2) {
+  float: right;
+  margin-left: 10px;
+}
+.heaMiddle {
+  width: 100%;
+  height: 60px;
+  background: #282828;
+}
+.heaMiddle > div {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  background: #282828;
+}
+.heamL {
+  width: 875px;
+  height: 60px;
+  float: left;
+}
+.heamL > ul {
+  width: 875px;
+  height: 60px;
+}
+.heamL > ul > li > a {
+  display: block;
+  width: 120px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  background: #282828;
+  font-size: 16px;
+  color: #B6B6B6;
+}
+.heamL > ul > li > a:hover {
+  background: #D2A069;
+  color: white;
+  transition: .5s;
+}
+.heamL > ul > li:nth-child(6) > a {
+  background: #D2A069;
+  color: white;
+  margin-right: 20px;
+}
+.heamR {
+  width: 325px;
+  height: 60px;
+  float: right;
+}
+.heamR > div {
+  width: 210px;
+  height: 30px;
+  margin: 15px 0 15px 115px;
+}
+.heamR > div > input {
+  width: 180px;
+  height: 30px;
+  float: left;
+  outline: none;
+  background: #494949;
+  border: 0px;
+  color: white;
+}
+.heamR > div > a {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: #D2A069;
+}
+.heamR > div > a > img {
+  width: 100%;
+  height: 100%;
+}
+.heaBottom {
+  width: 100%;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
+}
+.heaBottom > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.heaBottom > span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 95%;
+  overflow: hidden;
+  border-radius: 50px;
+  background: #ccc;
+}
+.zjt {
+  left: 48%;
+  border: 1px solid #fff;
+}
+.yjt {
+  right: 48%;
+}
+.heaBottom > div:nth-child(1) {
+  background: url("../images/sy2.jpg") no-repeat center;
+}
+.heaBottom > div:nth-child(2) {
+  background: url("../images/sy3.jpg") no-repeat center;
+  top: 0;
+  left: 100%;
+}
+.matop {
+  width: 100%;
+  height: 30px;
+  margin-top: 70px;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 30px;
+}
+.matop div {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.matop div img {
+  vertical-align: middle;
+}
+.matop div span {
+  font-size: 16px;
+  color: #925735;
+}
+.matop div a {
+  font-size: 14px;
+  color: #888;
+}
+.mabod {
+  width: 85%;
+  height: 830px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mabod .mbl {
+  width: 21%;
+  height: 100px;
+  float: left;
+  position: relative;
+  opacity: 0;
+  left: -300px;
+}
+.mabod .mbl .mbrT {
+  width: 100%;
+  height: 116px;
+  background: url(../images/news1.png) no-repeat;
+  text-align: center;
+  line-height: 116px;
+}
+.mabod .mbl .mbrT a {
+  font-size: 30px;
+  color: #fff;
+}
+.mabod .mbl .mbrB {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  padding-left: 75px;
+  line-height: 50px;
+  background: #f6f6f6;
+  border-left: 3px solid #f6f6f6;
+}
+.mabod .mbl .mbrB:hover {
+  border-left: 3px solid #D2A069;
+}
+.mabod .mbl .mbrB:hover > img.zou {
+  display: none;
+}
+.mabod .mbl .mbrB:hover > img.zou1 {
+  display: block;
+}
+.mabod .mbl .mbrB:hover > a {
+  color: #d2a069;
+}
+.mabod .mbl .mbrB a {
+  color: #555;
+  font-size: 16px;
+}
+.mabod .mbl .mbrB img.zou {
+  float: right;
+  display: block;
+}
+.mabod .mbl .mbrB img.zou1 {
+  float: right;
+  display: none;
+}
+.mabod .mbr {
+  position: relative;
+  overflow: hidden;
+  width: 75%;
+  height: 100%;
+  float: right;
+  opacity: 0;
+  left: 800px;
+}
+.mabod .mbr div.mblT {
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+  overflow: hidden;
+  border-bottom: 1px solid #EDEDED;
+}
+.mabod .mbr div.mblT span {
+  overflow: hidden;
+  display: inline-block;
+  width: 3px;
+  height: 20px;
+  background: #D2A069;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.mabod .mbr div.mblT a {
+  font-size: 18px;
+  color: #555;
+  font-weight: 700;
+  margin-top: 3px;
+  line-height: 18px;
+}
+.mabod .mbr div.mblB {
+  width: 100%;
+}
+.mabod .mbr div.mblB ul > li {
+  width: 100%;
+  height: 56px;
+  border-bottom: 1px dashed #ededed;
+  line-height: 56px;
+}
+.mabod .mbr div.mblB ul > li img {
+  vertical-align: middle;
+}
+.mabod .mbr div.mblB ul > li a {
+  font-size: 14px;
+  color: #555;
+  margin-left: 10px;
+}
+.mabod .mbr div.mblB ul > li a:hover {
+  color: #D2A069;
+  text-decoration: underline solid;
+}
+.mabod .mbr div.mblB ul > li span {
+  font-size: 14px;
+  color: #999;
+  float: right;
+}
+.mabod .mbr div.mblB div.mbb {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+}
+.mabod .mbr div.mblB div.mbb span {
+  display: inline-block;
+  border: 1px solid #dbdbdb;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: #999;
+  margin-top: 80px;
+}
+.mabod .mbr div.mblB div.mbb span:nth-child(4) {
+  background: #D2A069;
+  color: #ffffff;
+}
+.mabod .mbr div.mblB div#content {
+  margin-top: 20px;
+}
+.mabod .mbr div.mblB div#content p {
+  line-height: 1.75em;
+  text-indent: 2em;
+  color: #666;
+  font-family: '微软雅黑', "Microsoft YaHei";
+}
+.footTop {
+  background: #FFFFFF;
+}
+.footTop > div {
+  width: 1200px;
+  height: 242px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.same {
+  width: 50%;
+  height: 100%;
+}
+.same:nth-child(1) {
+  float: left;
+}
+.same:nth-child(2) {
+  float: right;
+}
+.sameTop {
+  font-size: 18px;
+  color: #D2A069;
+  margin-bottom: 20px;
+}
+.sameBot {
+  width: 600px;
+  height: 198px;
+}
+.sameBot > ul {
+  width: 100%;
+  height: 100%;
+}
+.sameBot > ul > li {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+.stL {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.stR {
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+.stR > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #666666;
+  padding-bottom: 20px;
+}
+.stR > p {
+  font-size: 14px;
+  color: #888888;
+  padding-top: 20px;
+}
+.stR > div {
+  width: 20px;
+  height: 1px;
+  background: #D2A069;
+}
+.same:nth-child(2) > .sameTop {
+  padding-left: 200px;
+}
+.same:nth-child(2) > .sameBot > div {
+  display: inline-block;
+  width: 134px;
+  height: 100%;
+}
+.same:nth-child(2) > .sameBot > div:nth-child(1) {
+  margin-left: 200px;
+}
+.same:nth-child(2) > .sameBot > div:nth-child(2) {
+  margin-left: 100px;
+}
+.same:nth-child(2) > .sameBot > div > img {
+  margin-top: 25px;
+  width: 100%;
+}
+.same:nth-child(2) > .sameBot > div > p {
+  text-align: center;
+  font-size: 14px;
+  color: #888888;
+}
+.footBot {
+  background: #222222;
+  width: 100%;
+}
+.footBot > div {
+  width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
+  background: #222222;
+}
+.footBot > div > p {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+.footBot > div > p > a {
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+.footBot > div > p > a:hover {
+  color: #D2A069;
+}
+.footBot > div > p > span {
+  color: #999;
+}
+.anchor {
+  width: 50px;
+  height: 250px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  background: #C1BFC0;
+  border-radius: 10px 0 0 10px;
+  z-index: 9;
+}
+.anchor > ul {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+}
+.anchor > ul > li {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+}
+.anchor > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  z-index: 3;
+}
+.anchor > ul > li > a > img {
+  width: 26px;
+  height: 26px;
+}
+.anchor > ul > li:nth-child(2) > span {
+  width: 200px;
+  height: 150px;
+  background: #C1BFC0;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 2;
+  border-radius: 10px 0 0 10px;
+}
+.anchor > ul > li:nth-child(2) > span > div {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  line-height: 75px;
+  color: white;
+}
+.anchor > ul > li:nth-child(2) > div > div:nth-child(1) {
+  border-bottom: 1px solid #fff;
+}
+.anchor > ul > li:nth-child(3) > div {
+  width: 100px;
+  height: 50px;
+  background: #C1BFC0;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 100px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+.anchor > ul > li:nth-child(4) > div {
+  width: 100px;
+  height: 50px;
+  background: #C1BFC0;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 100px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}

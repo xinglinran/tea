@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 	<meta charset="UTF-8">
 	<title>news</title>
+	<link rel="shortcut icon" href="images/bird.ico" type="image/x-icon">
 	<link rel="stylesheet" href="stylesheets/news.css">
 	<script src="javascripts/jquery-1.11.1.min.js"></script>
 	<script src="javascripts/news.js"></script>
@@ -90,12 +91,12 @@
 						<ul id="ul">
 						</ul>
 						<div class="mbb">
-							<span>共有1页</span>
-							<span>首页</span>
-							<span>上一页</span>
-							<span>1</span>
-							<span>下一页</span>
-							<span>尾页</span>
+							<a href="javascript:void(0)"><span >共有<font id="fenye1"><%=Math.ceil(title[0].one/5)%></font>页</span></a>
+							<a href="javascript:void(0)"><span id="fenye2">首页</span></a>
+							<a href="javascript:void(0)"><span id="fenye3">上一页</span></a>
+							<a href="javascript:void(0)"><span id="fenye4">1</span></a>
+							<a href="javascript:void(0)"><span id="fenye5">下一页</span></a>
+							<a href="javascript:void(0)"><span id="fenye6">尾页</span></a>
 						</div>
 					</div>
 				</div>

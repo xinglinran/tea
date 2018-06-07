@@ -1,13 +1,33 @@
 $(function(){
+	$('#loginOut').hide();
+	if(window.localStorage.user){
+		$('#user').html(window.localStorage.user);
+		$('#user').attr('href','javascript:;');
+		$('.heatR>div:nth-child(1)').hide();
+		$('.heatR>div:nth-child(2)').hide();
+		$('#loginOut').show();
+	}
+	$('#loginOut').on('click',function(){
+		// console.log('sss')
+		// 
+		if(window.localStorage){
+
+			window.localStorage.removeItem('user');
+			console.log(window.location);
+
+			window.location.href = '/index';
+		}
+	})
+	// console.log(phone);
 	$('.anchor>ul>li:nth-child(2)>a').mouseover(function(){
 		$('.anchor>ul>li>span').css('left','-200px')
 		$('.anchor>ul>li>span').css('transition','.5s')
-		$('.anchor>ul>li:nth-child(2)>a').css('background','#ccc')
+		$('.anchor>ul>li:nth-child(2)>a').css('background','rgba(0,0,0,0.5)')
 	})
 	$('.anchor>ul>li:nth-child(2)>a').mouseout(function(){
 		$('.anchor>ul>li>span').css('left','0')
 		$('.anchor>ul>li>span').css('transition','.5s')
-		$('.anchor>ul>li:nth-child(2)>a').css('background','#C1BFC0')
+		$('.anchor>ul>li:nth-child(2)>a').css('background','rgba(0,0,0,0.5)')
 	})
 	$('.anchor>ul>li:nth-child(2)>span').mouseover(function(){
 		$('.anchor>ul>li>span').css('left','-200px')
@@ -21,12 +41,12 @@ $(function(){
 	$('.anchor>ul>li:nth-child(3)>a').mouseover(function(){
 		$('.anchor>ul>li:nth-child(3)>div').css('left','-100px')
 		$('.anchor>ul>li:nth-child(3)>div').css('transition','.5s')
-		$('.anchor>ul>li:nth-child(3)>a').css('background','#ccc')
+		$('.anchor>ul>li:nth-child(3)>a').css('background','rgba(0,0,0,0.5)')
 	})
 	$('.anchor>ul>li:nth-child(3)>a').mouseout(function(){
 		$('.anchor>ul>li:nth-child(3)>div').css('left','50px')
 		$('.anchor>ul>li:nth-child(3)>div').css('transition','.5s')
-		$('.anchor>ul>li:nth-child(3)>a').css('background','#C1BFC0')
+		$('.anchor>ul>li:nth-child(3)>a').css('background','rgba(0,0,0,0.5)')
 	})
 	$('.anchor>ul>li:nth-child(3)>div').mouseover(function(){
 		$('.anchor>ul>li:nth-child(3)>div').css('left','-100px')
@@ -40,12 +60,12 @@ $(function(){
 	$('.anchor>ul>li:nth-child(4)>a').mouseover(function(){
 		$('.anchor>ul>li:nth-child(4)>div').css('left','-100px')
 		$('.anchor>ul>li:nth-child(4)>div').css('transition','.5s')
-		$('.anchor>ul>li:nth-child(4)>a').css('background','#ccc')
+		$('.anchor>ul>li:nth-child(4)>a').css('background','rgba(0,0,0,0.5)')
 	})
 	$('.anchor>ul>li:nth-child(4)>a').mouseout(function(){
 		$('.anchor>ul>li:nth-child(4)>div').css('left','50px')
 		$('.anchor>ul>li:nth-child(4)>div').css('transition','.5s')
-		$('.anchor>ul>li:nth-child(4)>a').css('background','#C1BFC0')
+		$('.anchor>ul>li:nth-child(4)>a').css('background','rgba(0,0,0,0.5)')
 	})
 	$('.anchor>ul>li:nth-child(4)>div').mouseover(function(){
 		$('.anchor>ul>li:nth-child(4)>div').css('left','-100px')
@@ -134,6 +154,8 @@ $(function(){
 		$('#hThree').css('transition','1s')
 	})
 // 轮播图
+	// 轮播图
+	var i=0;
 	$('.yjt').click(function(){
 		$('.heaBottom>div:nth-child(1)').css('transform','translateX(-100%)');
 		$('.heaBottom>div:nth-child(1)').css('transition','1s');
@@ -141,6 +163,7 @@ $(function(){
 		$('.heaBottom>div:nth-child(2)').css('transition','1s');
 		$('.yjt').css('border','1px solid #fff');
 		$('.zjt').css('border','0');
+		i=1;
 	})
 	$('.zjt').click(function(){
 		$('.heaBottom>div:nth-child(1)').css('transform','translateX(0)');
@@ -149,16 +172,65 @@ $(function(){
 		$('.heaBottom>div:nth-child(2)').css('transition','1s');
 		$('.yjt').css('border','0');
 		$('.zjt').css('border','1px solid #fff');
-		
+		i=0;
 	})
+	trmer = setInterval(lbt,5000);
+	$('#lb1').mouseover(function(){
+		clearInterval(trmer);
+	})
+	$('#lb2').mouseover(function(){
+		clearInterval(trmer);
+	})
+	$('#lb1').mouseout(function(){
+		trmer = setInterval(lbt,5000);
+	})
+	$('.zjt').mouseout(function(){
+		trmer = setInterval(lbt,5000);
+	})
+	$('.yjt').mouseover(function(){
+		clearInterval(trmer);
+	})
+	$('.zjt').mouseover(function(){
+		clearInterval(trmer);
+	})
+	$('.yjt').mouseout(function(){
+		trmer = setInterval(lbt,5000);
+	})
+	$('#lb2').mouseout(function(){
+		trmer = setInterval(lbt,5000);
+	})
+	function lbt(){
+		if(i%2==0){
+			$('.heaBottom>div:nth-child(1)').css('transform','translateX(-100%)');
+			$('.heaBottom>div:nth-child(1)').css('transition','1s');
+			$('.heaBottom>div:nth-child(2)').css('left','0');
+			$('.heaBottom>div:nth-child(2)').css('transition','1s');
+			$('.yjt').css('border','1px solid #fff');
+			$('.zjt').css('border','0');
+			i=1;
+		}else{
+			$('.heaBottom>div:nth-child(1)').css('transform','translateX(0)');
+			$('.heaBottom>div:nth-child(1)').css('transition','1s');
+			$('.heaBottom>div:nth-child(2)').css('left','100%');
+			$('.heaBottom>div:nth-child(2)').css('transition','1s');
+			$('.yjt').css('border','0');
+			$('.zjt').css('border','1px solid #fff');
+			i=0;
+		}
+		
+	}
+
 	$('#s').click(function(){
 		$('html,body').animate({'scrollTop':'0'},800)
 	})
 	$('#x').click(function(){
 		$('html,body').animate({'scrollTop':'5000'},800)
 	})
+
+
 	$(window).scroll(function(){
 		var top=$(window).scrollTop();
+		console.log(top)
 		if(top>=400){
 			$('.mlL').css('transform','scale(1,1)')
 			$('.mlL').css('transition','1s');
@@ -227,6 +299,16 @@ $(function(){
 		if(top>2500){
 			$('.mainThree>ul>li>div').css('transform','translateY(0)');
 			$('.mainThree>ul>li>div').css('transition','1s');
+		}
+		if(top>4000){
+			$('.stL').css('transform','translateY(0)');
+			$('.stL').css('transition','1s');
+			$('.stR').css('transform','translateY(0)');
+			$('.stR').css('transition','1s');
+			$('.weixin').css('transform','translateY(0)');
+			$('.weixin').css('transition','1s');
+			$('.shouji').css('transform','translateY(0)');
+			$('.shouji').css('transition','1s');
 		}
 	})
 

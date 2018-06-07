@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="shortcut icon" href="images/bird.ico" type="image/x-icon">
+	<link rel="stylesheet" href="stylesheets/login.css">
+	<script src="javascripts/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<div class="heaTop">
+				<div>
+					<div class="heatL">
+						<div><img src="images/sy1.jpg" alt=""></div>
+						<div>
+							<span>TEA</span>
+							<span>WEBSITE</span>
+						</div>		
+					</div>
+					<div class="heatR">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+				<div>
+					<form action="/index" method="post" id="login">
+					<ul>
+						<li>账号登录</li>
+						<li>
+							<input type="text" placeholder="请输入手机号 "  id="zhanghao" value="<%=phone%>">
+							<p id="p6">手机格式有误，请重新输入</p>
+
+						</li>
+						<li>
+							<input type="password" placeholder="密码 "   id="password" value="<%=pass%>">
+						</li>
+
+						<li>	
+							<input type="submit" value="登录">
+							<p id="p7">账号或者密码错误，请重新输入</p>
+						</li>
+						<li><a href="register">注册</a></li>
+					</ul>
+					</form>
+				</div>
+		</div>
+		<div class="footer">
+			<div class="footBot">
+				<div>
+					<p>
+						<a href="">网站首页</a><span>&nbsp;|</span>
+						<a href="">产品专区</a><span>&nbsp;|</span>
+						<a href="">品牌介绍</a><span>&nbsp;|</span>
+						<a href="">招商加盟</a><span>&nbsp;|</span>
+						<a href="">专营店</a><span>&nbsp;|</span>
+						<a href="">新闻资讯</a><span>&nbsp;|</span>
+						<a href="">联系我们</a>
+					</p>
+					<p>Copyright © 2014-2025,www.xxxxx.com,All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="javascripts/login.js"></script>
+</body>
+</html>

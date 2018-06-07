@@ -13,7 +13,10 @@ var mapRouer = require('./routes/map');
 var productRouter = require('./routes/product');
 var brandRouter = require('./routes/brand');
 var attractRouer = require('./routes/attract');
-// var usersRouter = require('./routes/users');
+var loginRouter = require('./routes/login');
+var registerRouter = require('./routes/register');
+var dohanleRouter = require('./routes/dohanle');
+
 var app = express();
 
 // view engine setup
@@ -36,6 +39,9 @@ app.use('/map',mapRouer);
 app.use('/product', productRouter);
 app.use('/attract',attractRouer);
 app.use('/brand', brandRouter);
+app.use('/login', loginRouter);
+app.use('/register',registerRouter);
+app.use('/dohanle',dohanleRouter);
 // app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler

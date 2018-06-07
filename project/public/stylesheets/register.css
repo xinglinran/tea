@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 120px;
+}
+.header>div{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.heaTop {
+  width: 100%;
+  height: 120px;
+}
+.heaTop > div {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.heatL {
+  width: 300px;
+  height: 100%;
+  float: left;
+}
+.heatL > div:nth-child(1) {
+  float: left;
+}
+.heatL > div:nth-child(2) {
+  float: right;
+}
+.heatL > div > span {
+  font-size: 28px;
+  font-family: 微软雅黑;
+  color: #D2A069;
+  line-height: 120px;
+  margin-bottom: 20px;
+}
+.heatL > div > span:nth-child(2) {
+  color: #444444;
+}
+.heatR {
+  width: 200px;
+  height: 100%;
+  float: right;
+}
+.heatR > div > a {
+  display: block;
+  color: #E1B787;
+  width: 80px;
+  height: 38px;
+  line-height: 40px;
+  border-radius: 20px;
+  border: 1px solid #E1B787;
+  margin-top: 40px;
+  text-align: center;
+}
+.heatR > div > a:hover {
+  background: #D2A069;
+  color: white;
+}
+.heatR > div:nth-child(1) {
+  float: left;
+  margin-right: 10px;
+}
+.heatR > div:nth-child(2) {
+  float: right;
+  margin-left: 10px;
+}
+.main{
+	width: 100%;
+	height: 588px;
+	background: url('../images/zhuce.jpg') no-repeat center;
+  position: relative;
+}
+.main>form>div{
+	width: 400px;
+	height: 90%;
+	background: #222;
+      position: absolute;
+      left: 50%;
+      margin-top: 20px;
+}
+.main>form>div>ul{
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.main>form>div>ul>li{
+    width: 100%;
+    height: 20%;
+}
+.main>form>div>ul>li:nth-child(1){
+    color: white;
+    font-size: 26px;
+    font-weight: 800;
+}
+.main>form>div>ul>li:nth-child(2)>input{
+    width: 280px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+}
+.main>form>div>ul>li:nth-child(2)>p{
+  font-size: 14px;
+  color: red;
+}
+.main>form>div>ul>li:nth-child(3)>input{
+    width: 280px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+}
+#p3{
+  color: #ccc;
+  font-size: 14px;
+}
+#p4{
+  color: red;
+  font-size: 14px;
+}
+.main>form>div>ul>li:nth-child(4)>input{
+     width: 280px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+}
+.main>form>div>ul>li:nth-child(4)>p{
+    font-size: 14px;
+  color: red;
+}
+.main>form>div>ul>li:nth-child(5)>input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #923e3e;
+    border:0;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    outline: none;
+}
+.footer{
+	width: 100%;
+	height: 110px;
+}
+.footBot {
+  background: #222222;
+  width: 100%;
+}
+.footBot > div {
+  width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
+  background: #222222;
+}
+.footBot > div > p {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+.footBot > div > p > a {
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+.footBot > div > p > a:hover {
+  color: #D2A069;
+}
+.footBot > div > p > span {
+  color: #999;
+}

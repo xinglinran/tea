@@ -15,7 +15,15 @@ connection.connect();
 console.log('数据库连接成功')
 
 router.get('/', function(req, res, next) {
-  res.render('product', { title: 'Express' });
+	var Sql = 'SELECT COUNT(*) AS one FROM cha';
+	connection.query(Sql,function (err, result) {
+	          if(err){
+	     		console.log('[SELECT ERROR] - ',err.message);
+	         		return;
+	          }        
+	        res.render('product', { title: result});
+	});
+	
 });
 
 router.post('/', function(req, res, next) {

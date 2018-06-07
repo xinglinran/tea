@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>茶</title>
+	<title>首页</title>
+	<link rel="shortcut icon" href="images/bird.ico" type="image/x-icon">
 	<script src="https://cdn.bootcss.com/less.js/3.0.4/less.js"></script>
 	<link rel="stylesheet" href="stylesheets/index.css">
 	<script src="javascripts/jquery-1.11.1.min.js"></script>
@@ -20,8 +21,12 @@
 						</div>		
 					</div>
 					<div class="heatR">
-						<div><a href="">注册</a></div>
-						<div><a href="">登录</a></div>
+						<div><a href="register">注册</a></div>
+						<div><a href="login">登录</a></div>
+						<span>
+							<a href="javascript: ;" id="user"></a>
+							<a href="" id="loginOut">注销</a>
+						</span>
 					</div>
 				</div>
 			</div>
@@ -47,8 +52,8 @@
 				</div>
 			</div>
 			<div class="heaBottom">
-				<div></div>
-				<div></div>
+				<div id="lb1"></div>
+				<div id="lb2"></div>
 				<span class="zjt"></span>
 				<span class="yjt"></span>
 			</div>
@@ -285,8 +290,7 @@
 						<div></div>
 					</div>
 				</div>
-			</div>
-			
+			</div>		
 		</div>
 		<div class="footer">
 			<div class="footTop">

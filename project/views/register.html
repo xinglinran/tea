@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="shortcut icon" href="images/bird.ico" type="image/x-icon">
+	<link rel="stylesheet" href="stylesheets/register.css">
+	<script src="javascripts/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<div class="heaTop">
+				<div>
+					<div class="heatL">
+						<div><img src="images/sy1.jpg" alt=""></div>
+						<div>
+							<span>TEA</span>
+							<span>WEBSITE</span>
+						</div>		
+					</div>
+					<div class="heatR">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+				<form action="/dohanle" method="post" id="register">
+				<div>
+					<ul>
+							<li>账号注册</li>
+							<li>
+								<input type="text" placeholder="请输入手机号 " id="shoujihao" name="phone">
+								<p id="p1">手机格式有误，请重新输入</p>
+								<p id="p2">此号码已被注册</p>
+							</li>
+							<li>
+								<input type="password" placeholder="请输入密码 " id="pass" name="pass">
+								<p id="p3">8-20位字符组成，推荐字母、数字和符号组成的密码</p>
+								<p id="p4">密码错误</p>
+							</li>
+
+							<li>
+								<input type="password" placeholder="请再次输入密码" id="mima">
+								<p id="p5">两次密码输入不一致</p>
+							</li>
+
+							<li><input  type="submit" value="立即注册" id="zhuce"></li>
+					</ul>
+				</div>
+				</form>
+		</div>
+		<div class="footer">
+			<div class="footBot">
+				<div>
+					<p>
+						<a href="">网站首页</a><span>&nbsp;|</span>
+						<a href="">产品专区</a><span>&nbsp;|</span>
+						<a href="">品牌介绍</a><span>&nbsp;|</span>
+						<a href="">招商加盟</a><span>&nbsp;|</span>
+						<a href="">专营店</a><span>&nbsp;|</span>
+						<a href="">新闻资讯</a><span>&nbsp;|</span>
+						<a href="">联系我们</a>
+					</p>
+					<p>Copyright © 2014-2025,www.xxxxx.com,All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="javascripts/register.js"></script>
+</body>
+</html>

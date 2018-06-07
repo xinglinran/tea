@@ -1,5 +1,8 @@
 $(function(){
 	var ul = document.getElementById('mbrmRight')
+	var i = 1;
+	var input = document.getElementById('wrrsrI');
+
 	function fun(){
 		$('#mbLeft').css('left','-600px');
 		$('#mbRight').css('right','-1500px');
@@ -66,6 +69,8 @@ $(function(){
 	}	
 	
 	$('#cpzq').on('click',function(){
+		input.value =  1;
+		i=1;
 		$('#chanpinq').hide();
 		fun();
 		$('.mbrTop').show();
@@ -75,9 +80,7 @@ $(function(){
 		$('#mbrmRight').empty();
 		$('#pricea').empty();
 		$('#ltbMain').empty();
-		$('#wrap').hide();	
-		
-
+		$('#wrap').hide();		
 		$.ajax({
 			url:'/product',
 			type:'post',
@@ -98,6 +101,7 @@ $(function(){
 					li.appendChild(p).appendChild(b).innerHTML= data[i].name;
 					$(li).on('click',function(){
 						// console.log($(this).attr('id'));
+						
 						$('.mbrTop').hide();
 						fun();
 						$('.mbrMain').hide();
@@ -136,6 +140,8 @@ $(function(){
 	})
 
 	$('#sanz').on('click',function(){
+		input.value =  1;
+		i=1;		
 		$('.mbrTop').show();
 		fun();
 		$('.mbrMain').show();
@@ -171,6 +177,7 @@ $(function(){
 						li.appendChild(p).appendChild(b).innerHTML= data[i].name;
 						$(li).on('click',function(){
 							// console.log($(this).attr('id'));
+							
 							$('.mbrTop').hide();
 							fun();
 							$('.mbrMain').hide();
@@ -210,6 +217,8 @@ $(function(){
 	})
 
 	$('#lih').on('click',function(){
+		input.value =  1;
+		i=1;	
 		$('.mbrTop').show();
 		fun();
 		$('.mbrMain').show();
@@ -244,6 +253,7 @@ $(function(){
 						ul.appendChild(li).appendChild(a).appendChild(img);
 						li.appendChild(p).appendChild(b).innerHTML= data[i].name;
 						$(li).on('click',function(){
+							
 							$('.mbrTop').hide();
 							fun();
 							$('.mbrMain').hide();
@@ -325,6 +335,8 @@ $(function(){
 	})
 	
 	$('#hez').on('click',function(){
+		input.value =  1;
+		i=1;	
 		$('.mbrTop').show();
 		fun();
 		$('.mbrMain').show();
@@ -359,6 +371,7 @@ $(function(){
 						ul.appendChild(li).appendChild(a).appendChild(img);
 						li.appendChild(p).appendChild(b).innerHTML= data[i].name;
 						$(li).on('click',function(){
+						
 							$('.mbrTop').hide();
 							fun();
 							$('.mbrMain').hide();
@@ -427,7 +440,22 @@ $(function(){
 		$('#more').css('display','none')
 	})
 	
+
+	input.value = i;
+	$(input).on('blur',function(){
+		i = Number(input.value);
+	});
+	$('#wrrsrA').on('click',function(){
+		input.value = i+=1;
+	});
+	$('#wrrsrJ').on('click',function(){
+		input.value = i-=1;
+		if(input.value<=0){
+			input.value =  0;
+			i=0;
+		};
+	});
 	
-	
+
 
 })
